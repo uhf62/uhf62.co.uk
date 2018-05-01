@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+$font-family-sans-serif: Helvetica, Arial, sans-serif;
+
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700;
+
+$line-height-base: 1.8;
+
+
+@import "bootstrap/bootstrap";
+
+body {
+  margin-top: ($paragraph-margin-bottom);
+}
