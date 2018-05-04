@@ -9,7 +9,7 @@ defaults:
       path: ""
       type: "policies"
     values:
-      layout: "default"
+      layout: "policy"
 
 
 # Build settings

@@ -2,6 +2,14 @@
 
 @import "bootstrap/bootstrap";
 
+$font-family-serif: Georgia, serif;
+
 footer img {
   filter: grayscale(100%) opacity(60%);
+}
+
+blockquote {
+  font-family: $font-family-serif;
+  font-style: italic;
+  padding-left: 8.333%;
 }

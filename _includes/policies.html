@@ -1,0 +1,8 @@
+<ul>
+    {% for policy in site.policies %}
+        {% if policy.skip_in_list %}
+        {% else %}
+            <li><a href="{{ policy.url }}">{{ policy.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>

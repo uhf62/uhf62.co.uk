@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% if site.title or page.title %}
+            <title>
+                {{ site.title }}
+                {% if site.title and page.title %}
+                    —
+                {% endif %}
+                {{ page.title }}
+            </title>
+        {% endif %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    </head>
+    <body>
+        <div class="container">
