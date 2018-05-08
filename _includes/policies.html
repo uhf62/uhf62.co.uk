@@ -2,7 +2,7 @@
     {% for policy in site.policies %}
         {% if policy.skip_in_list %}
         {% else %}
-            <li><a href="{{ policy.url }}">{{ policy.title }}</a></li>
+            <li><a href="{{ policy.url }}">{{ policy.title | remove: ' Policy' }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
