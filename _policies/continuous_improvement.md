@@ -8,7 +8,7 @@ UHF 62 strives to get better at everything we do.
 
 We'll participate in code reviews. These are a great way to expose yourself to different styles, techniques and functionality that you may have forgotten or be ignorant of.
 
-We'll attend meetups, talks and conferences.
+We'll attend meet-ups, talks and conferences.
 
 When they arise, we'll take opportunities to learn about new approaches and different languages.
 
