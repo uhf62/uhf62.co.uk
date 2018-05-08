@@ -9,7 +9,7 @@ I've been working in web development for over 18 years, during which time I've w
  * the [Australian Broadcasting Corporation (ABC)](http://www.abc.net.au);
  * [headspace](http://headspace.org.au), the Australian government's youth mental health foundation;
  * [SitePoint](http://sitepoint.com);
- * [Telstra](http://telstra.com); and
+ * [Telstra](http://telstra.com), Australia's largest telecommunications provider; and
  * [Ten Group](http://tengroup.com).
 
 For more detail about my experience, check out [my CV](http://craiga.id.au/cv) on [my personal web site](http://craiga.id.au).
