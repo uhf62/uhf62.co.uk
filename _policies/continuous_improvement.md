@@ -2,13 +2,7 @@
 title: Continuous Improvement Policy
 ---
 
-UHF 62 will get better at everything we do.
-
-## Continuous Improvement of Policies
-
-None of our policies are set in stone and are subject to change.
-
-The directors of UHF 62 will try to meet and get to know like-minded people, develop meaningful relationships with them, learn from them, and feed the things we learn back into these policies.
+UHF 62 strives to get better at everything we do.
 
 ## Continuous Improvement of Technical Skills
 
@@ -17,3 +11,9 @@ We'll participate in code reviews. These are a great way to expose yourself to d
 We'll attend meetups, talks and conferences.
 
 When they arise, we'll take opportunities to learn about new approaches and different languages.
+
+## Continuous Improvement of Policies
+
+Our policies are not set in stone and are subject to change.
+
+The directors of UHF 62 will try to meet and get to know like-minded people, develop meaningful relationships with them, learn from them, and feed the things we learn back into these policies.
