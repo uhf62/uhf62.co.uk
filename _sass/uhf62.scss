@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+$blue:    #0097C1 !default;
+$yellow:  #FFC80A !default;
+
 @import "bootstrap/bootstrap";
 
 $font-family-serif: Georgia, serif;
@@ -12,6 +15,28 @@ blockquote {
   font-family: $font-family-serif;
   font-style: italic;
   padding-left: 8.333%;
+}
+
+.jumbotron {
+  background-size: cover;
+
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    background-color: transparentize($yellow, 0.5);
+    padding: 0.1em 0.5em;
+  }
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    .jumbotron {
+      @if map-get($grid-breakpoints, $breakpoint) > 0 {
+        height: map-get($grid-breakpoints, $breakpoint) * 0.333;
+      } @else {
+        height: 33.3vw;
+      }
+    }
+  }
 }
 
 @media (min-width: map-get($grid-breakpoints, 'md')) {

@@ -1,5 +1,7 @@
 ---
 title: About Craig Anderson
+image: /assets/craig.jpeg
+image-position: bottom center
 ---
 
 Hi, I'm Craig Anderson—a web developer specialising in Python and Django.
