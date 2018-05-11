@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        {% if jekyll.environment == 'production' %}
+            {% include google-analytics.html %}
+        {% endif %}
         {% if site.title or page.title %}
             <title>
                 {{ site.title }}
