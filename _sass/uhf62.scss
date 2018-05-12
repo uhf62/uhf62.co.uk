@@ -17,13 +17,21 @@ blockquote {
   padding-left: 8.333%;
 }
 
+$jumbotron-transparency: 0.2;
+$jumbotron-padding: 0.5rem 1rem;
+
 .jumbotron {
   background-size: cover;
 
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
-    background-color: transparentize($yellow, 0.5);
-    padding: 0.1em 0.5em;
+    background-color: transparentize($yellow, $jumbotron-transparency);
+    padding: $jumbotron-padding;
+  }
+
+  .lead {
+    background-color: transparentize($blue, $jumbotron-transparency);
+    padding: $jumbotron-padding;
   }
 }
 
@@ -31,9 +39,9 @@ blockquote {
   @include media-breakpoint-up($breakpoint) {
     .jumbotron {
       @if map-get($grid-breakpoints, $breakpoint) > 0 {
-        height: map-get($grid-breakpoints, $breakpoint) * 0.333;
+        min-height: map-get($grid-breakpoints, $breakpoint) * 0.333;
       } @else {
-        height: 33.3vw;
+        min-height: 33.3vw;
       }
     }
   }

@@ -1,0 +1,17 @@
+{% if page.image %}
+    <div class="jumbotron" style="background-image: url('{{ page.image }}'){% if page.image-position %}; background-position: {{ page.image-position }}{% endif %}">
+        {% if page.title %}
+            <h1>{{ page.title }}</h1>
+        {% endif %}
+        {% if page.lead %}
+            <p class="lead">{{ page.lead }}</p>
+        {% endif %}
+    </div>
+{% else %}
+    {% if page.title %}
+        <h1>{{ page.title }}</h1>
+    {% endif %}
+    {% if page.lead %}
+        <p class="lead">{{ page.lead }}</p>
+    {% endif %}
+{% endif %}

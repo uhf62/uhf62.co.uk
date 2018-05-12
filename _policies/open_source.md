@@ -1,5 +1,8 @@
 ---
 title: Open Source Contribution Policy
+image: /assets/fabian-irsara-92113-unsplash.jpg
+image-credit-name: Fabian Irsara
+image-credit-url: https://unsplash.com/photos/67l-QujB14w
 ---
 
 The software UHF 62 builds for clients depends on open source software. Contributing to open source is an important, billable part of our work.

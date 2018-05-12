@@ -2,6 +2,13 @@
                 <div class="float-right"><img alt="UHF 62" src="/assets/logo.png" height="80"></div>
                 <p><small>UHF 62 Limited. Company number 11114211.</small></p>
                 <p><small><a href="mailto:hello@uhf62.co.uk">hello@uhf62.co.uk</a></small></p>
+                {% if page.image-credit-name %}
+                    {% if page.image-credit-url %}
+                        <p><small><a href="{{ page.image-credit-url }}">Header photo by {{ page.image-credit-name }}.</a></small></p>
+                    {% else %}
+                        <p><small>Header photo by {{ page.image-credit-name }}.</small></p>
+                    {% endif %}
+                {% endif %}
             </footer>
         </div>
     </body>
