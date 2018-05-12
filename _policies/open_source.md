@@ -1,6 +1,6 @@
 ---
 title: Open Source Contribution Policy
-image: /assets/fabian-irsara-92113-unsplash.jpg
+image: /assets/fabian-irsara-92113-unsplash.optimised.jpg
 image-credit-name: Fabian Irsara
 image-credit-url: https://unsplash.com/photos/67l-QujB14w
 ---
