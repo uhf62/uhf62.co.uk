@@ -1,17 +1,18 @@
 {% include top.html %}
-{% include nav.html %}
-
-<article class="py-3">
-    {% include title-and-lead.html %}
-    <div class="row py-3">
-        <div class="col-md-8">
-            {{content}}
+<div class="container">
+    {% include nav.html %}
+    <article class="py-3">
+        {% include title-and-lead.html %}
+        <div class="row py-3">
+            <div class="col-md-8">
+                {{content}}
+            </div>
+            <aside class="col-md-4">
+                <h1>UHF 62's Policies</h1>
+                {% include policies.html %}
+            </aside>
         </div>
-        <aside class="col-md-4">
-            <h1>UHF 62's Policies</h1>
-            {% include policies.html %}
-        </aside>
-    </div>
-</article>
-
+    </article>
+    {% include footer.html %}
+</div>
 {% include bottom.html %}

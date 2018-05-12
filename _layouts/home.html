@@ -1,0 +1,20 @@
+{% include top.html %}
+<body class="home d-sm-flex" style="background-image: url('{{ page.image }}'){% if page.image-position %}; background-position: {{ page.image-position }}{% endif %}">
+    <div class="container align-self-center">
+        <div class="row pb-3">
+            <div class="col-4"></div>
+            <div class="col-4"><img src="/assets/logo.png" alt="UHF 62 Logo" class="img-fluid"></div>
+            <div class="col-4"></div>
+        </div>
+
+        {% if page.title %}
+            <h1 class="hl hl-yellow">{{ page.title }}</h1>
+        {% endif %}
+        {% if page.lead %}
+            <p class="lead hl hl-blue">{{ page.lead }}</p>
+        {% endif %}
+        {{content}}
+        {% include footer.html %}
+    </div>
+</body>
+{% include bottom.html %}
