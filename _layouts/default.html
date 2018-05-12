@@ -1,9 +1,10 @@
 {% include top.html %}
-{% include nav.html %}
-
-<article class="py-3">
-    {% include title-and-lead.html %}
-    {{content}}
-</article>
-
+<div class="container">
+    {% include nav.html %}
+    <article class="py-3">
+        {% include title-and-lead.html %}
+        {{content}}
+    </article>
+    {% include footer.html %}
+</div>
 {% include bottom.html %}

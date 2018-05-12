@@ -17,22 +17,21 @@ blockquote {
   padding-left: 8.333%;
 }
 
-$jumbotron-transparency: 0.2;
-$jumbotron-padding: 0.5rem 1rem;
+$hl-transparency: 0.2;
+$hl-padding: 0.5rem 1rem;
+
+.hl {
+  padding: $hl-padding;
+}
+
+@each $color, $value in $colors {
+  .hl-#{$color} {
+    background-color: transparentize($value, $hl-transparency);
+  }
+}
 
 .jumbotron {
   background-size: cover;
-
-  h1, h2, h3, h4, h5, h6,
-  .h1, .h2, .h3, .h4, .h5, .h6 {
-    background-color: transparentize($yellow, $jumbotron-transparency);
-    padding: $jumbotron-padding;
-  }
-
-  .lead {
-    background-color: transparentize($blue, $jumbotron-transparency);
-    padding: $jumbotron-padding;
-  }
 }
 
 @each $breakpoint in map-keys($grid-breakpoints) {
@@ -55,5 +54,19 @@ $jumbotron-padding: 0.5rem 1rem;
     h4, .h4 { font-size: $font-size-base; }
     h5, .h5 { font-size: $font-size-base; }
     h6, .h6 { font-size: $font-size-base; }
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+.home {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .container>p {
+    padding: $hl-padding;
+    background-color: transparentize($yellow, $hl-transparency);
   }
 }
