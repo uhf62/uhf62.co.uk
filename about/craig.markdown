@@ -1,7 +1,9 @@
 ---
 title: About Craig Anderson
-image: /assets/craig.jpeg
-image-position: bottom center
+lead: Programming Director, UHF 62
+image: /assets/craig.jpg
+image-position: bottom
+image-credit-name: Zoe Jackson
 ---
 
 Hi, I'm Craig Anderson—a web developer specialising in Python and Django.
