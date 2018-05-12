@@ -2,7 +2,7 @@
 title: Values and Policies
 skip_in_list: true
 layout: default
-image: /assets/sensei-minimal-413544-unsplash.jpg
+image: /assets/sensei-minimal-413544-unsplash.optimised.jpg
 image-position: bottom
 image-credit-name: Sensei Minimal
 image-credit-url: https://unsplash.com/photos/F3AblJa7Ys8

@@ -1,6 +1,6 @@
 ---
 title: Continuous Improvement Policy
-image: /assets/jeremy-perkins-253184-unsplash.jpg
+image: /assets/jeremy-perkins-253184-unsplash.optimised.jpg
 image-credit-name: Jeremy Perkins
 image-credit-url: https://unsplash.com/photos/7FOSJVtUtac
 ---
