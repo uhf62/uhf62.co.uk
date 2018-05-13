@@ -7,8 +7,12 @@ $yellow:  #FFC80A !default;
 
 $font-family-serif: Georgia, serif;
 
-footer img {
-  filter: grayscale(100%) opacity(60%);
+footer {
+  font-size: 80%;
+  img {
+    filter: grayscale(100%) opacity(60%);
+    width: 100%;
+  }
 }
 
 blockquote {
