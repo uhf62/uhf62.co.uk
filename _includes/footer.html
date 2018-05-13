@@ -1,12 +1,22 @@
-<footer class="px-3 py-2 text-muted bg-light">
-    <div class="float-right"><img alt="UHF 62" src="/assets/logo.png" height="80"></div>
-    <p><small>UHF 62 Limited. Company number 11114211.</small></p>
-    <p><small><a href="mailto:hello@uhf62.co.uk">hello@uhf62.co.uk</a></small></p>
-    {% if page.image-credit-name %}
-        {% if page.image-credit-url %}
-            <p><small><a href="{{ page.image-credit-url }}">Photography by {{ page.image-credit-name }}.</a></small></p>
-        {% else %}
-            <p><small>Photography by {{ page.image-credit-name }}.</small></p>
-        {% endif %}
-    {% endif %}
+<footer class="px-3 py-2 pr-5 text-muted bg-light">
+    <div class="row">
+        <div class="col-lg-11 col-10">
+            <p>UHF 62 Limited, company number 11114211.
+                Site built in London, England by UHF 62.
+                Logo design by Jo Gardiner.
+                {% if page.image-credit-name %}
+                    {% if page.image-credit-url %}
+                        <a href="{{ page.image-credit-url }}">Photography by {{ page.image-credit-name }}.</a>
+                    {% else %}
+                        Photography by {{ page.image-credit-name }}.
+                    {% endif %}
+                {% endif %}
+                Visit us on <a href="https://github.com/uhf62">GitHub</a> or email us
+                at <a href="mailto:hello@uhf62.co.uk">hello@uhf62.co.uk</a>.
+            </p>
+        </div>
+        <div class="col-lg-1 col-2">
+            <a href="/"><img src="/assets/logo.png"></a>
+        </div>
+    </div>
 </footer>
