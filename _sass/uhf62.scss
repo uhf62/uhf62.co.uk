@@ -68,5 +68,8 @@ html, body {
   .container>p {
     padding: $hl-padding;
     background-color: transparentize($yellow, $hl-transparency);
+    a {
+      color: darken($link-color, 15%);
+    }
   }
 }
