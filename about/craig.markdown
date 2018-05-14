@@ -1,6 +1,6 @@
 ---
 title: About Craig Anderson
-lead: Programming Director, UHF 62
+description: Programming Director, UHF 62
 image: /assets/craig.optimised.jpg
 image-position: bottom
 image-credit-name: Zoe Jackson

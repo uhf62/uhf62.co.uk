@@ -1,6 +1,16 @@
 title: UHF 62
+description: Web development specialising in Python and Django based in London, England.
 email: hello@uhf62.co.uk
 url: https://www.uhf62.co.uk
+logo: /assets/logo.png
+lang: en_GB
+
+social:
+  name: UHF 62
+  links:
+    - http://linkedin.com/company/uhf62/
+    - https://github.com/uhf62
+
 collections:
   policies:
     output: true
@@ -12,6 +22,8 @@ defaults:
     values:
       layout: "policy"
 
+plugins:
+  - jekyll-seo-tag
 
 # Build settings
 markdown: kramdown
