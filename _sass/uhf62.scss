@@ -18,7 +18,7 @@ footer {
 blockquote {
   font-family: $font-family-serif;
   font-style: italic;
-  padding-left: 8.333%;
+  padding-left: 1rem;
 }
 
 $hl-transparency: 0.2;
@@ -75,6 +75,21 @@ html, body {
     background-color: transparentize($yellow, $hl-transparency);
     a {
       color: darken($link-color, 15%);
+    }
+  }
+}
+
+$testimonial-heights: (
+  sm: 11em,
+  md: 10em,
+  lg: 8em,
+  xl: 7em
+);
+
+@each $breakpoint, $height in $testimonial-heights {
+  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+    #testimonials {
+      height: $height;
     }
   }
 }
