@@ -18,6 +18,11 @@
             {{content}}
 
             <div id="testimonials" class="carousel slide mb-3 hl hl-yellow" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    {% for testimonial in site.testimonials reversed %}
+                        <li data-target="#testimonials" data-slide-to="{{ forloop.index0 }}"{%if forloop.first %} class="active"{% endif %}></li>
+                    {% endfor %}
+                </ol>
                 <div class="carousel-inner">
                     {% for testimonial in site.testimonials reversed %}
                         <div class="carousel-item{%if forloop.first %} active{% endif %}">

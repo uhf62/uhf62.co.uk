@@ -80,16 +80,20 @@ html, body {
 }
 
 $testimonial-heights: (
-  sm: 11em,
-  md: 10em,
-  lg: 8em,
-  xl: 7em
+  sm: 13em,
+  md: 11.5em,
+  lg: 9em,
+  xl: 7.5em
 );
 
 @each $breakpoint, $height in $testimonial-heights {
-  @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
     #testimonials {
       height: $height;
     }
   }
+}
+
+#testimonials {
+  padding-bottom: 2em;
 }
