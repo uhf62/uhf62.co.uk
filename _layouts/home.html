@@ -9,12 +9,29 @@
             </div>
 
             {% if page.title %}
-                <h1 class="hl hl-yellow">{{ page.title }}</h1>
+                <h1 class="hl hl-blue">{{ page.title }}</h1>
             {% endif %}
             {% if page.description %}
-                <p class="lead hl hl-blue">{{ page.description }}</p>
+                <p class="lead hl hl-yellow">{{ page.description }}</p>
             {% endif %}
+
             {{content}}
+
+            <div id="testimonials" class="carousel slide mb-3" data-ride="carousel">
+                <div class="carousel-inner">
+                    {% for testimonial in site.testimonials reversed %}
+                        <div class="carousel-item{%if forloop.first %} active{% endif %}">
+                            <blockquote class="hl hl-yellow">
+                                {{ testimonial.content }}
+                                <footer>
+                                    —{{ testimonial.name }}, {{ testimonial.title }}, {{ testimonial.organisation }}
+                                </footer>
+                            </blockquote>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
             {% include footer.html %}
         </div>
     </div>
