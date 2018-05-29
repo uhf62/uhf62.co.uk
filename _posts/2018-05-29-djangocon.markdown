@@ -1,6 +1,6 @@
 ---
 title: Reflecting on DjangoCon Europe 2018
-date: 2018-05-29 10:00:00 +0100
+date: 2018-05-29 13:55:00 +0100
 image: /assets/heidelberg.optimised.jpg
 image-credit-name: Craig Anderson
 image-credit-url: http://craiga.id.au
