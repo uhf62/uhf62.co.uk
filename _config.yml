@@ -23,6 +23,11 @@ defaults:
       type: "policies"
     values:
       layout: "policy"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blog-post"
 
 plugins:
   - jekyll-seo-tag
