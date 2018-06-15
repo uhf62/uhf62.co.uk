@@ -97,14 +97,3 @@ $testimonial-heights: (
 #testimonials {
   padding-bottom: 2em;
 }
-
-article>.blog-list {
-  @include list-unstyled();
-}
-
-@include media-breakpoint-up(md) {
-  .blog-image {
-    max-width: 33.3%;
-    float: right;
-  }
-}
