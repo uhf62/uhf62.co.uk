@@ -1,0 +1,18 @@
+{% include top.html %}
+<div class="container">
+    {% include nav.html %}
+    <article class="py-3">
+        {% include title-and-lead.html %}
+        <div class="row py-3">
+            <div class="col-md-8">
+                {{content}}
+            </div>
+            <aside class="col-md-4">
+                <h1>Other Posts</h1>
+                {% include blog-posts.html %}
+            </aside>
+        </div>
+    </article>
+    {% include footer.html %}
+</div>
+{% include bottom.html %}

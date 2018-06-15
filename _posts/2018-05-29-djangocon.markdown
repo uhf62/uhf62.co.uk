@@ -1,5 +1,6 @@
 ---
 title: Reflecting on DjangoCon Europe 2018
+description: Personal highlights from my first open-source conference.
 date: 2018-05-29 13:55:00 +0100
 image: /assets/heidelberg.optimised.jpg
 image-credit-name: Craig Anderson

@@ -2,7 +2,17 @@
 title: Advice for attending your first open-source conference
 ---
 
-As I mentioned in [my summary of DjangoCon Europe 2018]({% post_url 2018-05-29-djangocon %}), the most important thing I learned was *how* to attend conferences like DjangoCon.
+As I mentioned in [my reflections on DjangoCon Europe 2018]({% post_url 2018-05-29-djangocon %}), the most important thing I learned was *how* to attend conferences like DjangoCon.
+
+Hopefully, these things I learned will help you if you're attending something similar.
+
+## Know the program
+
+OK, this is fairly obvious, but make sure you go through the schedule and have at least a rough understanding of what each thing is about. Talk titles need to be short, so they may not fully explain the actual content of the talk.
+
+## Keep on top of schedule changes
+
+The schedule will almost certainly change. If the conference allows for it (and )
 
 ## Know your learning style
 

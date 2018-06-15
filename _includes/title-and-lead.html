@@ -6,6 +6,9 @@
         {% if page.description %}
             <p class="lead hl hl-blue">{{ page.description }}</p>
         {% endif %}
+        {% if page.date %}
+            <p class="small hl hl-blue">{{ page.date | date: "%B %e, %Y" }}</p>
+        {% endif %}
     </div>
 {% else %}
     {% if page.title %}
@@ -13,5 +16,8 @@
     {% endif %}
     {% if page.description %}
         <p class="lead">{{ page.description }}</p>
+    {% endif %}
+    {% if page.date %}
+        <p class="small text-muted">{{ page.date | date: "%B %e, %Y" }}</p>
     {% endif %}
 {% endif %}
