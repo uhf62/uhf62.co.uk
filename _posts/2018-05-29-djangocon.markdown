@@ -7,7 +7,7 @@ image-credit-name: Craig Anderson
 image-credit-url: http://craiga.id.au
 ---
 
-I'm back from [DjangoCon Europe 2018](https://2018.djangocon.eu), my first open-source developer's conference. It was really exciting to be surrounded by so many clever people sharing great ideas. I learned a lot, but perhaps the most important thing I learned was *how* to attend an open-source conference (which I'll share in a later post).
+I'm back from [DjangoCon Europe 2018](https://2018.djangocon.eu), my first open-source developer's conference. It was really exciting to be surrounded by so many clever people sharing great ideas. I learned a lot, but perhaps the most important thing I learned was [*how* to attend an open-source conference]({% post_url 2018-06-18-open-source-conference-advice %}).
 
 Of the talks that I saw, my personal highlights were:
 
