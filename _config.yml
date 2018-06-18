@@ -4,6 +4,7 @@ email: hello@uhf62.co.uk
 url: https://www.uhf62.co.uk
 logo: /assets/logo.svg
 lang: en_GB
+author: Craig Anderson
 
 social:
   name: UHF 62
@@ -30,6 +31,7 @@ defaults:
       layout: "blog-post"
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
