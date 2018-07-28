@@ -21,13 +21,13 @@ collections:
 
 defaults:
   - scope:
-    path: ""
-    type: "policies"
+      path: ""
+      type: "policies"
     values:
       layout: "policy"
   - scope:
-    path: ""
-    type: "posts"
+      path: ""
+      type: "posts"
     values:
       layout: "blog-post"
 
