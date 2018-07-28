@@ -1,2 +1,6 @@
 language: ruby
 script: bundle exec jekyll doctor
+notifications:
+  email:
+    on_success: change
+    on_failure: always
