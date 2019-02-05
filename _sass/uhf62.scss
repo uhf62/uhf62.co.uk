@@ -3,9 +3,30 @@
 $blue:    #0097C1 !default;
 $yellow:  #FFC80A !default;
 
+$hl-transparency: 0.1;
+$hl-padding: 0.5rem 1rem;
+
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, serif;
+
+$headings-font-family: Montserrat, sans-serif;
+$headings-font-weight: 900;
+$headings-margin-top: 2rem;
+$headings-margin-bottom: 1rem;
+
 @import "bootstrap/bootstrap";
 
-$font-family-serif: Georgia, serif;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: $headings-margin-top;
+  text-transform: uppercase;
+}
+
+h1, .h1 {
+  padding: $hl-padding;
+  background-color: transparentize($yellow, $hl-transparency);
+}
+
 
 footer {
   font-size: 80%;
@@ -21,8 +42,6 @@ blockquote {
   padding-left: 1rem;
 }
 
-$hl-transparency: 0.1;
-$hl-padding: 0.5rem 1rem;
 
 .hl {
   padding: $hl-padding;
@@ -32,6 +51,10 @@ $hl-padding: 0.5rem 1rem;
   .hl-#{$color} {
     background-color: transparentize($value, $hl-transparency);
   }
+}
+
+.text-brand {
+   font-family: $headings-font-family;
 }
 
 .jumbotron {
@@ -73,6 +96,7 @@ html, body {
   .container>p {
     padding: $hl-padding;
     background-color: transparentize($yellow, $hl-transparency);
+    font-family: $headings-font-family;
     a {
       color: darken($link-color, 15%);
     }
