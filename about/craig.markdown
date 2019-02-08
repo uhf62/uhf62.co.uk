@@ -22,9 +22,9 @@ sidebar-links:
     fontawesome-classes: fas fa-briefcase
 ---
 
-Hi, I'm Craig Anderson—a web developer specialising in Python and Django.
+Hi, I'm Craig Anderson—a freelance web developer specialising in Python and Django.
 
-I've been working in web development for over 18 years, during which time I've worked with all sorts of companies and organisations including:
+I've been working in web development for over {{ "now" | date: "%Y" | minus: 2000 }} years, during which time I've worked with all sorts of companies and organisations including:
 
  * [Australian Broadcasting Corporation (ABC)](http://www.abc.net.au);
  * [headspace](http://headspace.org.au), the Australian government's youth mental health foundation;

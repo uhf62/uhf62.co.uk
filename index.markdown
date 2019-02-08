@@ -7,7 +7,7 @@ image-credit-name: Benjamin Davies
 image-credit-url: https://unsplash.com/photos/Oja2ty_9ZLM
 ---
 
-UHF 62 is the limited company of [Craig Anderson](/about/craig), a London-based [web developer specialising in Python and Django](/what-we-do).
+UHF 62 is the limited company of [Craig Anderson](/about/craig), a London-based [freelance web developer specialising in Python and Django](/what-we-do).
 
 We can build an entire web application customised to your needs, join your team to supplement their existing skills, or anything else in between (or beyond!)
 
