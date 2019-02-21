@@ -1,6 +1,6 @@
 ---
 layout: home
-image: /assets/logo.svg
+image: /assets/logo.png
 background-image: /assets/benjamin-davies-484913-unsplash.optimised.jpg
 image-position: center
 image-credit-name: Benjamin Davies
