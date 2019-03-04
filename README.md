@@ -21,7 +21,6 @@ Images compressed with [mozjpeg](https://github.com/mozilla/mozjpeg):
 
     cjpeg -outfile assets/slipnslide.optimised.jpg assets/slipnslide.jpg
 
-
 # Preparing PDFs
 
 Sometimes I like to produce PDFs from web content.
@@ -30,3 +29,9 @@ Sometimes I like to produce PDFs from web content.
     pipenv run weasyprint https\://www.uhf62.co.uk/policies/charitable_giving charity.pdf
 
 Requires [Pipenv](https://pipenv.readthedocs.io/).
+
+# Syntax Highlighting CSS
+
+To generate syntax highlighting CSS, run the following command:
+
+    bundle exec rougify style base16.solarized > _sass/rouge.scss
