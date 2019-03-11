@@ -9,8 +9,8 @@ As part of a project I'm working on, I'm refactoring two nearly identical models
 Doing this requites a handful of migrations to:
 
  1. create the table for `generic.Event`;
- 2. move the data from `create.Event` into `generic.Event` an delete the `create.Event` table; and
- 3. move the data from `delete.Event` into `generic.Event` an delete the `delete.Event` table.
+ 2. move the data from `create.Event` into `generic.Event` and delete the `create.Event` table; and
+ 3. move the data from `delete.Event` into `generic.Event` and delete the `delete.Event` table.
 
 Migrations two and three call this function to move data between models:
 
