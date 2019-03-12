@@ -15,13 +15,13 @@ set -e
 # shellcheck disable=SC2016
 misspelled_words=$(find . -iname "*.markdown" -not -path "./vendor/*" -print0 \
   | xargs -0 cat \
-  | grep -v -E "^(\s|\-)*(image|image-credit-name|image-credit-url|url):" \
+  | grep -v -E "^(\s|\-)*(image|image-credit-name|image-credit-url|image-position|url):" \
   | grep -v -E "^\s{4}" \
   | sed "s/{%.*%}//" \
   | sed "s/](.*)/]/" \
   | sed -n '/^```/,/^```/ !p' \
   | sed 's/`.*`//' \
-  | aspell --lang=en --encoding=utf-8 --personal=./.aspell.en.pws list)
+  | aspell --lang=en_GB --encoding=utf-8 --personal=./.aspell.en.pws list)
 
 if [[ "$misspelled_words" ]];
 then
