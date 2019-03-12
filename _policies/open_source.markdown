@@ -9,6 +9,6 @@ The software UHF 62 builds for clients depends on open source software. Contribu
 
 Whenever we find a bug in a piece of open source software, we will check that a sufficiently detailed bug report exists for the issue. If a bug report doesn't exist, we will create one. If we can add to the report with valuable details, we will add those details.
 
-Similarly, we'll also contibute to feature requests when we find limitations in software.
+Similarly, we'll also contribute to feature requests when we find limitations in software.
 
 If the issue is significant for the client or has an obvious and simple solution, we'll work toward contributing code to address the issue.
