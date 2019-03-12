@@ -13,11 +13,11 @@ To run locally:
 
 The site will be available at http://localhost:4000.
 
-Requires [bundler](https://bundler.io).
+Requires [Bundler](https://bundler.io).
 
 # Preparing Images
 
-Images compressed with [mozjpeg](https://github.com/mozilla/mozjpeg):
+Images compressed with [MozJPEG](https://github.com/mozilla/mozjpeg):
 
     cjpeg -outfile assets/slipnslide.optimised.jpg assets/slipnslide.jpg
 

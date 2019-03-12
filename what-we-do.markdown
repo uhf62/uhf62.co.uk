@@ -13,6 +13,6 @@ He can help you with:
  * building web applications;
  * developing APIs to expose your data so it can be used in new and exciting ways;
  * building a productive culture; and
- * supplimenting your team to inject new skills, experience and mentorship.
+ * supplementing your team to inject new skills, experience and mentorship.
 
 He's a specialist in Python and Django, but is [always up for trying something new](/policies/continuous_improvement#continuous-improvement-of-technical-skills).
