@@ -2,9 +2,7 @@
 
 set -e
 
-find . -iname "*.markdown"
-
-# 1. Find all Markdown files.
+# 1. Find all Markdown files, excluding those in the vendor directory which is created in Travis.
 # 2. Output content of those files.
 # 3. Remove metadata lines which start with image:, image-credit-name:, etc.
 # 4. Remove code blocks indented with four spaces.
@@ -15,7 +13,7 @@ find . -iname "*.markdown"
 # 9. Finally, check spelling of everything that remains.
 
 # shellcheck disable=SC2016
-misspelled_words=$(find . -iname "*.markdown" -print0 \
+misspelled_words=$(find . -iname "*.markdown" -not -path "./vendor/*" -print0 \
   | xargs -0 cat \
   | grep -v -E "^(\s|\-)*(image|image-credit-name|image-credit-url|url):" \
   | grep -v -E "^\s{4}" \
