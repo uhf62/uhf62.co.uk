@@ -14,28 +14,12 @@ social:
     - https://github.com/uhf62
 
 collections:
-  policies:
-    output: true
   testimonials:
     output: false
 
-defaults:
-  - scope:
-      path: ""
-      type: "policies"
-    values:
-      layout: "policy"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "blog-post"
-
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
-# Build settings
 markdown: kramdown
-highlighter: rouge
