@@ -64,10 +64,11 @@
         },
         "cssselect2": {
             "hashes": [
-                "sha256:07e9c3b1b52d81dd08b177532bbd6b9ced650d87abfd641f4e4ec7de34b98807",
-                "sha256:70485a680cd72b023f0ce5ae4dcd392e2b10f7280e20afdb1735334bd6af7e6a"
+                "sha256:5c2716f06b5de93f701d5755a9666f2ee22cbcd8b4da8adddfc30095ffea3abc",
+                "sha256:97d7d4234f846f9996d838964d38e13b45541c18143bc55cf00e4bc1281ace76"
             ],
-            "version": "==0.2.2"
+            "index": "pypi",
+            "version": "==0.3.0"
         },
         "defusedxml": {
             "hashes": [
@@ -115,7 +116,6 @@
                 "sha256:2d475327684562c3a96cc71adf7dc8c4f0565175cf86b6d7a404ff4c771f15f0",
                 "sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705"
             ],
-            "index": "pypi",
             "version": "==2.20"
         },
         "pyphen": {
